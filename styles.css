@@ -27,21 +27,23 @@ h2 {
 }
 h3 {
   font-weight: bold;
+  font-size: 4rem;
 }
 p {
   font-weight: bold;
   color: #8f8f8f;
   font-weight: 500;
 }
+/* /////////////////////////////container-fluid////////////////////// */
 .container-fluid {
-  padding: 5% 20%;
+  padding: 7% 15%;
   position: relative;
   z-index: 1;
+  /* margin: 20px; */
   /* align-items: center; */
 }
-/* /////////////////////////////container-fluid////////////////////// */
-.container-fluid{
-  padding:5% 15% 15% ;
+.title-header{
+  border: 2px solid white ;
 }
 /******************************* NAVBAR LOGO ************************************/
 .navbar {
@@ -103,7 +105,7 @@ p {
 .fa-check-circle {
   color: #ff4c68;
   transition: all 0.5s ease-in;
-  padding-top: 10%;
+  padding-top: 7%;
 }
 .fa-check-circle:hover {
   color: #ff0026;
@@ -111,7 +113,7 @@ p {
 }
 .fa-bullseye {
   color: #ff4c68;
-  padding-top: 10%;
+  padding-top: 7%;
   transition: all 0.5s ease-in;
 }
 .fa-bullseye:hover {
@@ -119,7 +121,7 @@ p {
   transition: all 0.5s ease-in;
 }
 .fa-heart {
-  padding-top: 10%;
+  padding-top: 7%;
   color: #ff4c68;
   transition: all 0.5s ease-in;
 }
@@ -129,7 +131,7 @@ p {
 }
 .feature-img-position {
   /* border: 2px solid red;  */
-  margin: 3% auto;
+  text-align: center;
 }
 #features {
   /* height: 50vh; */
@@ -140,15 +142,11 @@ p {
   z-index: 1;
 
 }
-.feature-box{
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
 .features-text {
   text-align: center;
   /* display: flex;
   justify-content: space-evenly ; */
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-family: "Montserrat", sans-serif;
   padding: 7% 15%;
 }
@@ -163,7 +161,6 @@ p {
   /* border: 2px solid red; */
   background-color: #ff4c68;
   font-family: "Montserrat", sans-serif;
-  border-radius: 5px;
 }
 
 .pebbles-img {
@@ -174,7 +171,6 @@ p {
 
 .testimonial-image {
   width: 20%;
-  border-radius: 50%;
   border-radius: 50%;
   width: 20%;
   margin: 20px;
